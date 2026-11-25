@@ -1,207 +1,78 @@
-<h1 align="center">Grace Petrov</h1>
-<p align="center"><b>Business Analytics &nbsp;|&nbsp; Applied AI &nbsp;|&nbsp; Technology Strategy</b></p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0A2540,100:0A66C2&height=150&section=header&text=Grace%20Petrov&fontColor=ffffff&fontSize=44&fontAlignY=42&desc=From%20unstructured%20data%20to%20decisive%20action&descAlignY=68&descSize=16" alt="Grace Petrov. From unstructured data to decisive action." />
+
 <p align="center">
-  <a href="https://www.linkedin.com/in/gracepetrov/"><img src="https://img.shields.io/badge/LinkedIn-gracepetrov-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:gpetrov2024@gmail.com"><img src="https://img.shields.io/badge/Email-gpetrov2024@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Atlanta%2C_GA-4B5563?style=flat-square&logo=googlemaps&logoColor=white" alt="Atlanta, GA" />
+  <a href="https://www.linkedin.com/in/gracepetrov/">LinkedIn</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  <a href="mailto:gpetrov2024@gmail.com">gpetrov2024@gmail.com</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+  Atlanta, GA
 </p>
 
----
+I build 0-to-1 data products and full-stack decision models that convert entrenched business problems into measured strategy and impact. I am a BBA candidate at Emory University's Goizueta Business School and an AI Research Fellow at Emory's Center for AI Learning, with client-facing experience across nonprofit and Fortune 500 engagements.
+
+## Case Studies
+
+### Grant Copilot
+*Emory University Capstone, 2026. Top contributor. Private repository, demo available upon request.*
 
 <table>
 <tr>
-<td width="62%" valign="top">
-
-### About
-
-**From unstructured data to decisive action.** I build 0-to-1 data products and full-stack decision models that convert entrenched business problems into measured strategy and impact.
-
-My background includes client-facing engagements under compressed timelines with nonprofit and Fortune 500 organizations, applying data analysis, machine learning, market research, and financial modeling to strategy, operations, and technology implementation. More recently, I have expanded from analysis into building software and data products that make complex information accessible and actionable.
-
-</td>
-<td width="38%" valign="top">
-
-### Currently
-
-**BBA Candidate**<br>
-Emory University, Goizueta Business School<br>
-Information Systems and AI
-
-**AI Research Fellow**<br>
-Emory Center for AI Learning
-
-</td>
+<th width="33%">Business Problem</th>
+<th width="33%">Solution</th>
+<th width="34%">My Contributions</th>
 </tr>
-</table>
-
-## Selected Work
-
-<table>
 <tr>
-<td width="33%" valign="top">
-
-#### Grant Copilot
-*Emory Capstone, 2026*
-
-AI writing assistant that grounds nonprofit grant applications in verified U.S. Census data, with every figure traceable to its source.
-
-**Role:** Top contributor. Peer matching, session-aware follow-ups, export integrity.
-
-`Python` `Gemini` `FAISS` `Docker`
-
-<sub>Private repository. Demo upon request.</sub>
-
-</td>
-<td width="33%" valign="top">
-
-#### SAS to Python Migration
-*With Abt Global, Fall 2026*
-
-LLM-assisted modernization of the CMS Hospital Star Ratings pipeline, validated cell by cell against SAS for 4,566 hospitals.
-
-**Role:** Program 1 translation and validation, pipeline runner, Star Ratings Studio web application.
-
-`Python` `FastAPI` `React` `Docker`
-
-<sub>[View the application](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app)</sub>
-
-</td>
-<td width="33%" valign="top">
-
-#### Baggage Volume Forecasting
-*American Airlines*
-
-Neural network that forecasts checked bags per flight so operations teams can staff ground crews accurately.
-
-**Role:** Model architecture with categorical embeddings, 288-configuration tuning, evaluation on 24,711 flights.
-
-`PyTorch` `pandas` `SQL`
-
-<sub>[View the repository](https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations)</sub>
-
-</td>
+<td valign="top">Small nonprofits need quantitative evidence of community need to win grants, but U.S. Census data spans thousands of variables and releases, and few nonprofits have analysts to navigate it.</td>
+<td valign="top">A grant writer asks a question in plain English and receives a cited narrative of statistics, trends, and peer comparisons, each traceable to a specific Census variable, year, and geography.</td>
+<td valign="top">Peer-matching logic across Census releases, multi-year queries, session-aware follow-up questions, redesigned response interface, and export integrity.</td>
 </tr>
 </table>
-
-### Case Studies
-
-Expand any project for the full business case.
-
-<details>
-<summary><b>Grant Copilot</b> &nbsp;|&nbsp; Business problem, solution, and key contributions</summary>
-
-<br>
-
-*Emory University Capstone, 2026. Top contributor.*
-
-**Business Problem**
-
-Competitive grant applications depend on quantitative evidence of community need. The most comprehensive source of that evidence, U.S. Census data, spans thousands of variables, geographies, and annual releases. Most small nonprofits do not have dedicated analysts, so their applications often omit supporting data or cite figures that cannot be traced to a source. Both outcomes reduce an application's credibility with funders.
-
-**Solution**
-
-Grant Copilot allows a grant writer to ask a question in plain English, such as *"I am writing a food pantry grant for Southwest Atlanta,"* and receive a cited narrative of relevant statistics, trends, and peer comparisons. Each figure is traceable to a specific Census variable, year, and geography, which allows the writer to substantiate every claim.
-
-```mermaid
-flowchart LR
-    A[Plain-English question] --> B[Route to dataset and variable]
-    B --> C[Query Census data]
-    C --> D[Apply metric rules and peer comparisons]
-    D --> E[Cited grant narrative]
-```
-
-**Key Contributions**
-- Developed peer-matching logic that remains accurate across Census releases and added support for multi-year queries
-- Implemented session-aware follow-up questions and redesigned the response and loading interfaces for non-technical users
-- Strengthened the evidence and export pipeline to keep every exported figure consistent with its original source
 
 `Python` `Gemini / Vertex AI` `FAISS` `SpatiaLite` `Census ACS` `Docker`
 
-*Private repository. Demo available upon request.*
+### AI-Powered SAS to Python Migration
+*In partnership with Abt Global, Fall 2026.* [View the Star Ratings Studio application](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app)
 
-</details>
-
-<details>
-<summary><b>SAS to Python Migration</b> &nbsp;|&nbsp; Business problem, solution, and key contributions</summary>
-
-<br>
-
-*In partnership with Abt Global, Fall 2026.* &nbsp; [View the Star Ratings Studio application](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app)
-
-**Business Problem**
-
-Public agencies such as the Centers for Medicare & Medicaid Services continue to run critical analytics on SAS, a platform with high licensing costs and a shrinking talent pool. Manual migration to Python is slow and error-prone. Each program must be translated, tested, and documented, and institutional knowledge embedded in legacy code is frequently lost in the process.
-
-**Solution**
-
-An LLM-assisted workflow that translates SAS programs into Python, verifies that outputs match, flags discrepancies, and documents the underlying business logic. The system is evaluated against the production pipeline behind the CMS Overall Hospital Quality Star Ratings, a public rating that patients use to compare hospitals.
+<table>
+<tr>
+<th width="33%">Business Problem</th>
+<th width="33%">Solution</th>
+<th width="34%">My Contributions</th>
+</tr>
+<tr>
+<td valign="top">Agencies such as CMS run critical analytics on SAS, which carries high licensing costs and a shrinking talent pool. Manual migration is slow, error-prone, and risks losing institutional knowledge.</td>
+<td valign="top">An LLM-assisted workflow that translates SAS to Python, verifies output parity, and documents the business logic, evaluated on the CMS Hospital Star Ratings pipeline.</td>
+<td valign="top">Translated and validated Program 1 across 4,566 hospitals within 1e-12 of SAS, built the end-to-end pipeline runner, and designed and developed the Star Ratings Studio web application.</td>
+</tr>
+</table>
 
 ```mermaid
 flowchart LR
     A[Legacy SAS programs] --> B[LLM-assisted translation]
     B --> C[Python pipeline]
-    C --> D[Cell-by-cell parity checks against SAS]
-    D --> E[Star Ratings Studio web application]
+    C --> D[Parity checks against SAS]
+    D --> E[Star Ratings Studio]
 ```
 
-**Key Contributions**
-- **Translated and validated Program 1**, which produces first-stage group scores across all five hospital measure groups. Every column of every output table was compared cell by cell against the original SAS datasets for 4,566 hospitals, with all results matching within 1e-12. The translation preserves SAS arithmetic and missing-value handling to guarantee exact parity with the original outputs.
-- **Built the end-to-end pipeline runner**, which executes Programs 0 through 2 in sequence and reuses each program's validated functions to maintain a single source of truth.
-- **Designed and developed Star Ratings Studio**, the team's web application, which gives analysts full access to the migrated pipeline through a graphical interface.
-  - **Run and compare.** Users can run the pipeline on reference data or a newly uploaded measure file, save results, and compare two runs side by side to identify every hospital whose rating changed.
-  - **Explore.** A ratings dashboard presents a state-level map, rating distributions, and peer groups, along with a searchable hospital directory and detail pages that show how each group score contributes to the final star rating.
-  - **Validate.** A SAS parity page checks all nine output tables against the original SAS results, a methodology page maps each stage to the SAS program it replaces, and a printable report summarizes each run.
-  - **Reproduce.** Every run can be exported with a manifest that records the input file fingerprint, pipeline version, package versions, processing times, and validation results.
-  - **Deploy.** The application is packaged as a single Docker image, with continuous integration that runs the full test suite on every pull request.
+`Python` `pandas` `FastAPI` `React` `TypeScript` `pytest` `Docker` `GitHub Actions`
 
-`Python` `pandas` `FastAPI` `React` `TypeScript` `Tailwind` `pytest` `datacompy` `Docker` `GitHub Actions`
-
-</details>
-
-<details>
-<summary><b>Baggage Volume Forecasting</b> &nbsp;|&nbsp; Business problem, solution, and key contributions</summary>
-
-<br>
-
+### Baggage Volume Forecasting for American Airlines
 [View the repository](https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations)
 
-**Business Problem**
-
-Airlines plan ground crew and baggage-handling staffing around the expected number of checked bags per flight. Underestimates lead to delayed or mishandled baggage, which affects on-time performance and customer satisfaction. Overestimates result in excess labor costs.
-
-**Solution**
-
-A neural network that forecasts checked-bag volume for each flight using flight and schedule attributes, giving operations teams a more accurate basis for staffing decisions.
-
-**Key Contributions**
-- Built a feed-forward neural network with learned embeddings for categorical flight attributes such as aircraft type and route
-- Evaluated 288 hyperparameter configurations using early stopping and tested the best-performing model on 24,711 held-out flights
+<table>
+<tr>
+<th width="33%">Business Problem</th>
+<th width="33%">Solution</th>
+<th width="34%">My Contributions</th>
+</tr>
+<tr>
+<td valign="top">Ground-crew staffing depends on expected bags per flight. Underestimates delay baggage and hurt customer satisfaction. Overestimates create excess labor costs.</td>
+<td valign="top">A neural network that forecasts checked-bag volume per flight from flight and schedule attributes to support staffing decisions.</td>
+<td valign="top">Feed-forward architecture with categorical embeddings, 288-configuration hyperparameter search, and evaluation on 24,711 held-out flights.</td>
+</tr>
+</table>
 
 `PyTorch` `pandas` `Parquet` `SQL`
 
-</details>
-
 ## Technical Skills
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini API" />
-  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau" />
-  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel" />
-</p>
-
-<details>
-<summary>View the full skills inventory</summary>
-
-<br>
 
 | | |
 |---|---|
@@ -210,5 +81,3 @@ A neural network that forecasts checked-bag volume for each flight using flight 
 | **Generative AI and Retrieval** | OpenAI and Gemini APIs, RAG, embeddings, FAISS |
 | **Applications and Cloud** | FastAPI, React, Google Cloud, Vertex AI, Docker, GitHub Actions, REST APIs |
 | **Analytics and Business** | Tableau, Plotly, Matplotlib, Excel financial modeling, market research |
-
-</details>
