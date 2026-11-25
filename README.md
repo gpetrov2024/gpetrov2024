@@ -23,11 +23,11 @@ My background includes client-facing engagements under compressed timelines with
 
 ### Currently
 
-**BBA Candidate**
-Emory University, Goizueta Business School
+**BBA Candidate**<br>
+Emory University, Goizueta Business School<br>
 Information Systems and AI
 
-**AI Research Fellow**
+**AI Research Fellow**<br>
 Emory Center for AI Learning
 
 </td>
