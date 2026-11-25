@@ -1,139 +1,64 @@
+# Grace Petrov
 
-<h1 align="center">Welcome, I am Grace Petrov</h1>
+**From unstructured data to decisive action.** I build 0-to-1 data products and full-stack decision models that turn entrenched business problems into measured strategy and impact.
 
-<p align="center">
-  <strong>Business Analytics | Applied AI | Data Science | Technology Strategy</strong>
-</p>
+I'm a BBA candidate at Emory's Goizueta Business School (Information Systems & AI) and an AI Research Fellow at Emory's Center for AI Learning. My background is client-facing work on tight timelines with nonprofit and Fortune 500 organizations, where I've applied data analysis, machine learning, market research, and financial modeling to strategy, operations, customer insights, and technology implementation. More recently I've moved from analysis into building: software and data products that make complex information accessible and actionable.
 
-<p align="center">
-  Emory University BBA candidate building data-driven and AI-enabled solutions
-  for business and social-impact challenges
-</p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/gracepetrov/">
-    <img
-      src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=004182"
-      alt="Connect on LinkedIn"
-    >
-  </a>
-  <a href="mailto:gpetrov2024@gmail.com">
-    <img
-      src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=B3261E"
-      alt="Contact me by email"
-    >
-  </a>
-</p>
-
-<br>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-gracepetrov-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gracepetrov/)
+[![Email](https://img.shields.io/badge/Email-gpetrov2024@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:gpetrov2024@gmail.com)
 
 ---
 
-## About Me
+## Selected work
 
-I work at the intersection of **business, technology, and analytics**.
+### 🧭 Grant Copilot
+*Emory capstone, 2026. Top contributor.*
 
-My experience includes applied machine learning, generative AI, data analysis,
-consulting, market research, and financial modeling. I enjoy turning complex
-business questions into structured analyses and practical technical solutions
-that stakeholders can understand and use.
+**The problem:** Grant applications are won on evidence of need, but the best source of local evidence, U.S. Census data, is spread across thousands of variables, geographies, and yearly releases. Small nonprofits rarely have an analyst to dig through it, so they either skip the data or cite numbers they can't trace back to a source, and both weaken an application.
 
-- 🎓 Studying information systems and artificial intelligence at Emory University's Goizueta Business School
-- 🤖 Building AI and machine learning applications with real-world business use cases
-- 📊 Experienced in predictive modeling, NLP, data visualization, and strategic analysis
-- 💡 Interested in business analytics, applied AI, data science, and technology consulting
-- 🌱 Currently strengthening my skills in AI application development and data engineering
+**What it does:** A grant writer asks a plain-English question (*"I'm writing a food pantry grant for Southwest Atlanta"*) and gets back a cited paragraph of statistics, trends, and peer comparisons. Every number traces to a specific Census variable, year, and geography, so the writer can defend it to a funder.
 
----
+**My contributions:**
+- Built peer matching that stays valid across Census releases, plus support for questions spanning several years
+- Added follow-up questions that keep the context of the session, and redesigned the answer and loading screens for non-technical users
+- Hardened the evidence and export pipeline so numbers in an exported narrative can't drift from their sources
 
-## Current Featured Project
+`Python` `Gemini / Vertex AI` `FAISS` `SpatiaLite` `Census ACS` `Docker`
+*Private repo. Demo available on request.*
 
-<table>
-<tr>
-<td valign="top">
+### 🔁 [AI-Powered SAS to Python Migration](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration)
+*With Abt Global, Fall 2026*
 
-### 🤖 Grant Copilot
+**The problem:** Public agencies such as the Centers for Medicare & Medicaid Services still run critical analytics on SAS, which carries high licensing costs and a shrinking talent pool. Moving to Python by hand is slow and error-prone: every program has to be translated, tested, and documented, and the business logic buried in old code is easy to lose along the way.
 
-**An AI-enabled analytics system that helps grant writers identify relevant public-data metrics and generate evidence-backed insights for grant narratives.**
+**What it does:** An LLM-assisted workflow that translates SAS programs into Python, checks that the outputs match, flags differences, and documents the underlying logic. It is tested on the real pipeline behind CMS's Overall Hospital Quality Star Ratings, a public rating patients use to compare hospitals.
 
-Grant Copilot helps users move from an open-ended natural-language question
-to the most relevant dataset, variable, calculation, and supporting evidence.
+**My contributions:**
+- Owned translation and validation of Program 1, checking Python output against the original SAS output by row counts, columns, and summary statistics
+- Worked in a 7-person team with PR review, logged decisions, and records of which model and prompt produced each translation
 
-#### Project Objective
+`Python` `LLMs` `pandas` `pytest` `datacompy` `uv`
 
-The system is being developed to:
+### ✈️ [Baggage Volume Prediction for American Airlines](https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations)
 
-- Interpret a user's natural-language question
-- Route the question to the most applicable dataset
-- Identify the relevant table and variable
-- Query structured public data
-- Apply defined metric and calculation rules
-- Return a transparent, evidence-backed response
-- Support future datasets through a scalable ingestion process
+**The problem:** Airlines staff ground crews and baggage handling around how many bags they expect per flight. Underestimate and bags get delayed or mishandled, which hurts on-time performance and customers; overestimate and labor goes unused.
 
-</td>
-</tr>
-</table>
+**What it does:** A neural network that forecasts checked-bag counts per flight from flight and schedule features, giving operations teams a sharper input for staffing decisions.
+
+**My contributions:**
+- Built a feed-forward network with learned embeddings for categorical flight features such as aircraft type and route
+- Tuned 288 hyperparameter configurations with early stopping, then evaluated the best model on 24,711 held-out flights
+
+`PyTorch` `pandas` `Parquet` `SQL`
 
 ---
 
-## Technical Toolkit
+## Toolkit
 
-### Languages & Data Formats
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL">
-  <img src="https://img.shields.io/badge/JSON-000000?style=flat-square&logo=json&logoColor=white" alt="JSON">
-  <img src="https://img.shields.io/badge/CSV-Data_Format-4B5563?style=flat-square" alt="CSV">
-  <img src="https://img.shields.io/badge/Parquet-Columnar_Data-4B5563?style=flat-square" alt="Parquet">
-</p>
-
-### Data Science & Machine Learning
-
-<p>
-  <img src="https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="pandas">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
-  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
-  <img src="https://img.shields.io/badge/spaCy-09A3D5?style=flat-square&logo=spacy&logoColor=white" alt="spaCy">
-  <img src="https://img.shields.io/badge/NLTK-Text_Processing-4B5563?style=flat-square" alt="NLTK">
-</p>
-
-### AI & Retrieval
-
-<p>
-  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI API">
-  <img src="https://img.shields.io/badge/RAG-Retrieval_Augmented_Generation-4B5563?style=flat-square" alt="RAG">
-  <img src="https://img.shields.io/badge/FAISS-Vector_Search-4B5563?style=flat-square" alt="FAISS">
-  <img src="https://img.shields.io/badge/Embeddings-Semantic_Search-4B5563?style=flat-square" alt="Embeddings">
-</p>
-
-### Databases & Cloud
-
-<p>
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
-  <img src="https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black" alt="DuckDB">
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Google Cloud">
-  <img src="https://img.shields.io/badge/REST_APIs-Integration-4B5563?style=flat-square" alt="REST APIs">
-</p>
-
-### Visualization & Analytics
-
-<p>
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" alt="Tableau">
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square" alt="Matplotlib">
-  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly">
-  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel">
-</p>
-
-### Development Tools
-
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VS Code">
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter">
-  <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white" alt="Google Colab">
-  <img src="https://img.shields.io/badge/Terminal-Command_Line-4B5563?style=flat-square" alt="Terminal">
-</p>
+| | |
+|---|---|
+| **Languages & data** | Python, SQL, pandas, NumPy, DuckDB, SQLite, Parquet |
+| **ML & NLP** | PyTorch, scikit-learn, spaCy, NLTK |
+| **LLMs & retrieval** | OpenAI & Gemini APIs, RAG, embeddings, FAISS |
+| **Cloud & tooling** | Google Cloud / Vertex AI, Docker, Git, Jupyter, REST APIs |
+| **Analysis & communication** | Tableau, Plotly, Matplotlib, Excel financial modeling, market research |
