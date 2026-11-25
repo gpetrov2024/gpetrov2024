@@ -16,17 +16,6 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
 
 I am a BBA candidate at Emory University's Goizueta Business School, concentrating in Information Systems and Artificial Intelligence, and an AI Research Fellow at Emory's Center for AI Learning. My background includes client-facing engagements under compressed timelines with nonprofit and Fortune 500 organizations, where I have applied data analysis, machine learning, market research, and financial modeling to strategy, operations, customer insights, and technology implementation. More recently, I have expanded from analysis into building software and data products that make complex information accessible and actionable.
 
-## Impact at a Glance
-
-<table>
-  <tr>
-    <td align="center" width="25%"><h3>4,566</h3>hospitals validated against SAS in a CMS star-rating migration</td>
-    <td align="center" width="25%"><h3>1e-12</h3>maximum difference between Python and SAS outputs</td>
-    <td align="center" width="25%"><h3>24,711</h3>flights in the held-out test set for an airline forecasting model</td>
-    <td align="center" width="25%"><h3>3</h3>data products built across nonprofit, public health, and airline operations</td>
-  </tr>
-</table>
-
 ## Selected Work
 
 Select any project to expand the full business case, solution, and contributions.
