@@ -13,6 +13,7 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
 
 ## Selected Work
 
+<div>
 <a href="#grant-copilot"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/row-grant-copilot-dark.svg" />
   <img width="100%" src="assets/row-grant-copilot-light.svg" alt="Grant Copilot. Gives nonprofit grant writers cited U.S. Census evidence for every claim they make to a funder." />
@@ -25,6 +26,7 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
   <source media="(prefers-color-scheme: dark)" srcset="assets/row-baggage-forecasting-dark.svg" />
   <img width="100%" src="assets/row-baggage-forecasting-light.svg" alt="Baggage Forecasting. Predicts checked bags per flight so ground crews can be staffed to real demand." />
 </picture></a>
+</div>
 
 ## Case Studies
 
