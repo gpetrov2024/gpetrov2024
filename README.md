@@ -26,7 +26,7 @@ I'm a BBA candidate at Emory's Goizueta Business School (Information Systems & A
 `Python` `Gemini / Vertex AI` `FAISS` `SpatiaLite` `Census ACS` `Docker`
 *Private repo. Demo available on request.*
 
-### [AI-Powered SAS to Python Migration](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration)
+### [AI-Powered SAS to Python Migration](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app)
 *With Abt Global, Fall 2026*
 
 **The problem:** Public agencies such as the Centers for Medicare & Medicaid Services still run critical analytics on SAS, which carries high licensing costs and a shrinking talent pool. Moving to Python by hand is slow and error-prone: every program has to be translated, tested, and documented, and the business logic buried in old code is easy to lose along the way.
