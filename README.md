@@ -11,7 +11,7 @@ I'm a BBA candidate at Emory's Goizueta Business School (Information Systems & A
 
 ## Selected work
 
-### 🧭 Grant Copilot
+### Grant Copilot
 *Emory capstone, 2026. Top contributor.*
 
 **The problem:** Grant applications are won on evidence of need, but the best source of local evidence, U.S. Census data, is spread across thousands of variables, geographies, and yearly releases. Small nonprofits rarely have an analyst to dig through it, so they either skip the data or cite numbers they can't trace back to a source, and both weaken an application.
@@ -26,7 +26,7 @@ I'm a BBA candidate at Emory's Goizueta Business School (Information Systems & A
 `Python` `Gemini / Vertex AI` `FAISS` `SpatiaLite` `Census ACS` `Docker`
 *Private repo. Demo available on request.*
 
-### 🔁 [AI-Powered SAS to Python Migration](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration)
+### [AI-Powered SAS to Python Migration](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration)
 *With Abt Global, Fall 2026*
 
 **The problem:** Public agencies such as the Centers for Medicare & Medicaid Services still run critical analytics on SAS, which carries high licensing costs and a shrinking talent pool. Moving to Python by hand is slow and error-prone: every program has to be translated, tested, and documented, and the business logic buried in old code is easy to lose along the way.
@@ -34,12 +34,18 @@ I'm a BBA candidate at Emory's Goizueta Business School (Information Systems & A
 **What it does:** An LLM-assisted workflow that translates SAS programs into Python, checks that the outputs match, flags differences, and documents the underlying logic. It is tested on the real pipeline behind CMS's Overall Hospital Quality Star Ratings, a public rating patients use to compare hospitals.
 
 **My contributions:**
-- Owned translation and validation of Program 1, checking Python output against the original SAS output by row counts, columns, and summary statistics
-- Worked in a 7-person team with PR review, logged decisions, and records of which model and prompt produced each translation
+- **Translated and validated Program 1**, the first-stage group scoring for all five measure groups. Every column of every table was compared cell by cell against the original SAS datasets for 4,566 hospitals, and results match to within 1e-12. The translation deliberately keeps SAS's own arithmetic and missing-value handling so the outputs match exactly rather than approximately.
+- **Built the end-to-end pipeline runner** that chains Programs 0 to 2 in memory, calling each program's validated functions so nothing is reimplemented.
+- **Designed and built Star Ratings Studio, the team's web app**, so analysts can use the migrated pipeline without touching code:
+  - *Run and compare:* run the pipeline on reference data or a new uploaded measure file, save runs, and compare two runs side by side to see every hospital whose rating moved
+  - *Explore:* a ratings dashboard with a state map, rating distribution, and peer groups, plus a searchable hospital list and a detail page showing how each group score feeds the final star rating
+  - *Trust:* a SAS parity page that checks all nine output tables against SAS, a methodology page mapping each stage to the SAS program it replaces, and a printable run report
+  - *Reproducibility:* every run downloads with a manifest recording the input file's fingerprint, pipeline version, package versions, step timings, and validation results
+  - Shipped as a single Docker image with CI that runs the tests on every pull request
 
-`Python` `LLMs` `pandas` `pytest` `datacompy` `uv`
+`Python` `pandas` `FastAPI` `React` `TypeScript` `Tailwind` `pytest` `datacompy` `Docker` `GitHub Actions`
 
-### ✈️ [Baggage Volume Prediction for American Airlines](https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations)
+### [Baggage Volume Prediction for American Airlines](https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations)
 
 **The problem:** Airlines staff ground crews and baggage handling around how many bags they expect per flight. Underestimate and bags get delayed or mishandled, which hurts on-time performance and customers; overestimate and labor goes unused.
 
