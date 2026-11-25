@@ -52,6 +52,21 @@ flowchart LR
     D --> E[Star Ratings Studio]
 ```
 
+<details>
+<summary><b>Star Ratings Studio</b> &nbsp;|&nbsp; Web application features</summary>
+
+<br>
+
+Star Ratings Studio gives analysts full access to the migrated pipeline through a graphical interface.
+
+- **Run and compare.** Users can run the pipeline on reference data or a newly uploaded measure file, save results, and compare two runs side by side to identify every hospital whose rating changed.
+- **Explore.** A ratings dashboard presents a state-level map, rating distributions, and peer groups, along with a searchable hospital directory and detail pages that show how each group score contributes to the final star rating.
+- **Validate.** A SAS parity page checks all nine output tables against the original SAS results, a methodology page maps each stage to the SAS program it replaces, and a printable report summarizes each run.
+- **Reproduce.** Every run can be exported with a manifest that records the input file fingerprint, pipeline version, package versions, processing times, and validation results.
+- **Deploy.** The application is packaged as a single Docker image, with continuous integration that runs the full test suite on every pull request.
+
+</details>
+
 `Python` `pandas` `FastAPI` `React` `TypeScript` `pytest` `Docker` `GitHub Actions`
 
 ### Baggage Volume Forecasting for American Airlines
@@ -74,10 +89,10 @@ flowchart LR
 
 ## Technical Skills
 
-| | |
-|---|---|
-| **Languages and Data** | Python, SQL, TypeScript, pandas, NumPy, DuckDB, SQLite, Parquet |
-| **Machine Learning and NLP** | PyTorch, scikit-learn, spaCy, NLTK |
-| **Generative AI and Retrieval** | OpenAI and Gemini APIs, RAG, embeddings, FAISS |
-| **Applications and Cloud** | FastAPI, React, Google Cloud, Vertex AI, Docker, GitHub Actions, REST APIs |
-| **Analytics and Business** | Tableau, Plotly, Matplotlib, Excel financial modeling, market research |
+<table>
+  <tr><td><b>Languages and Data</b></td><td>Python, SQL, TypeScript, pandas, NumPy, DuckDB, SQLite, Parquet</td></tr>
+  <tr><td><b>Machine Learning and NLP</b></td><td>PyTorch, scikit-learn, spaCy, NLTK</td></tr>
+  <tr><td><b>Generative AI and Retrieval</b></td><td>OpenAI and Gemini APIs, RAG, embeddings, FAISS</td></tr>
+  <tr><td><b>Applications and Cloud</b></td><td>FastAPI, React, Google Cloud, Vertex AI, Docker, GitHub Actions, REST APIs</td></tr>
+  <tr><td><b>Analytics and Business</b></td><td>Tableau, Plotly, Matplotlib, Excel financial modeling, market research</td></tr>
+</table>
