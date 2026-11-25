@@ -1,12 +1,12 @@
 <picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/banner-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/banner-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
   <img width="100%" src="assets/banner-light.svg" alt="Grace Petrov. From unstructured data to decisive action." />
 </picture>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/gracepetrov/">LinkedIn</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-  <a href="mailto:gpetrov2024@gmail.com">gpetrov2024@gmail.com</a> &nbsp;&nbsp;|&nbsp;&nbsp;
-  Atlanta, GA
+  <a href="https://www.linkedin.com/in/gracepetrov/">LinkedIn</a>&emsp;&emsp;<a href="mailto:gpetrov2024@gmail.com">gpetrov2024@gmail.com</a>&emsp;&emsp;Atlanta,&nbsp;GA
 </p>
 
 I build 0-to-1 data products and full-stack decision models that convert entrenched business problems into measured strategy and impact. I am a BBA candidate at Emory University's Goizueta Business School and an AI Research Fellow at Emory's Center for AI Learning, with client-facing experience across nonprofit and Fortune 500 engagements.
@@ -15,14 +15,20 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
 
 <div>
 <a href="#grant-copilot"><picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/row-grant-copilot-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/row-grant-copilot-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/row-grant-copilot-dark.svg" />
   <img width="100%" src="assets/row-grant-copilot-light.svg" alt="Grant Copilot. Gives nonprofit grant writers cited U.S. Census evidence for every claim they make to a funder." />
 </picture></a>
 <a href="https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app"><picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/row-sas-migration-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/row-sas-migration-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/row-sas-migration-dark.svg" />
   <img width="100%" src="assets/row-sas-migration-light.svg" alt="SAS to Python Migration. Moves the CMS hospital star-rating pipeline off SAS, validated cell by cell for 4,566 hospitals." />
 </picture></a>
 <a href="https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations"><picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/row-baggage-forecasting-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/row-baggage-forecasting-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/row-baggage-forecasting-dark.svg" />
   <img width="100%" src="assets/row-baggage-forecasting-light.svg" alt="Baggage Forecasting. Predicts checked bags per flight so ground crews can be staffed to real demand." />
 </picture></a>
@@ -33,44 +39,41 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
 ### Grant Copilot
 *Emory University Capstone, 2026. Top contributor. Private repository, demo available upon request.*
 
-<table>
-<tr>
-<th width="33%">Business Problem</th>
-<th width="33%">Solution</th>
-<th width="34%">My Contributions</th>
-</tr>
-<tr>
-<td valign="top">Small nonprofits need quantitative evidence of community need to win grants, but U.S. Census data spans thousands of variables and releases, and few nonprofits have analysts to navigate it.</td>
-<td valign="top">A grant writer asks a question in plain English and receives a cited narrative of statistics, trends, and peer comparisons, each traceable to a specific Census variable, year, and geography.</td>
-<td valign="top">Peer-matching logic across Census releases, multi-year queries, session-aware follow-up questions, redesigned response interface, and export integrity.</td>
-</tr>
-</table>
+**Business Problem**
+
+Small nonprofits need quantitative evidence of community need to win grants, but U.S. Census data spans thousands of variables and releases, and few nonprofits have analysts to navigate it.
+
+**Solution**
+
+A grant writer asks a question in plain English and receives a cited narrative of statistics, trends, and peer comparisons, each traceable to a specific Census variable, year, and geography.
+
+**My Contributions**
+
+Peer-matching logic across Census releases, multi-year queries, session-aware follow-up questions, redesigned response interface, and export integrity.
 
 `Python` `Gemini / Vertex AI` `FAISS` `SpatiaLite` `Census ACS` `Docker`
 
 ### AI-Powered SAS to Python Migration
 *In partnership with Abt Global, Fall 2026.* [View the Star Ratings Studio application](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app)
 
-<table>
-<tr>
-<th width="33%">Business Problem</th>
-<th width="33%">Solution</th>
-<th width="34%">My Contributions</th>
-</tr>
-<tr>
-<td valign="top">Agencies such as CMS run critical analytics on SAS, which carries high licensing costs and a shrinking talent pool. Manual migration is slow, error-prone, and risks losing institutional knowledge.</td>
-<td valign="top">An LLM-assisted workflow that translates SAS to Python, verifies output parity, and documents the business logic, evaluated on the CMS Hospital Star Ratings pipeline.</td>
-<td valign="top">Translated and validated Program 1 across 4,566 hospitals within 1e-12 of SAS, built the end-to-end pipeline runner, and designed and developed the Star Ratings Studio web application.</td>
-</tr>
-</table>
+**Business Problem**
 
-```mermaid
-flowchart LR
-    A[Legacy SAS programs] --> B[LLM-assisted translation]
-    B --> C[Python pipeline]
-    C --> D[Parity checks against SAS]
-    D --> E[Star Ratings Studio]
-```
+Agencies such as CMS run critical analytics on SAS, which carries high licensing costs and a shrinking talent pool. Manual migration is slow, error-prone, and risks losing institutional knowledge.
+
+**Solution**
+
+An LLM-assisted workflow that translates SAS to Python, verifies output parity, and documents the business logic, evaluated on the CMS Hospital Star Ratings pipeline.
+
+**My Contributions**
+
+Translated and validated Program 1 across 4,566 hospitals within 1e-12 of SAS, built the end-to-end pipeline runner, and designed and developed the Star Ratings Studio web application.
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/flow-sas-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/flow-sas-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/flow-sas-dark.svg" />
+  <img width="100%" src="assets/flow-sas-light.svg" alt="Pipeline: legacy SAS programs, LLM-assisted translation, Python pipeline, parity checks against SAS, Star Ratings Studio." />
+</picture>
 
 <details>
 <summary><b>Star Ratings Studio</b> &nbsp;|&nbsp; Web application features</summary>
@@ -92,18 +95,17 @@ Star Ratings Studio gives analysts full access to the migrated pipeline through 
 ### Baggage Volume Forecasting for American Airlines
 [View the repository](https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations)
 
-<table>
-<tr>
-<th width="33%">Business Problem</th>
-<th width="33%">Solution</th>
-<th width="34%">My Contributions</th>
-</tr>
-<tr>
-<td valign="top">Ground-crew staffing depends on expected bags per flight. Underestimates delay baggage and hurt customer satisfaction. Overestimates create excess labor costs.</td>
-<td valign="top">A neural network that forecasts checked-bag volume per flight from flight and schedule attributes to support staffing decisions.</td>
-<td valign="top">Feed-forward architecture with categorical embeddings, 288-configuration hyperparameter search, and evaluation on 24,711 held-out flights.</td>
-</tr>
-</table>
+**Business Problem**
+
+Ground-crew staffing depends on expected bags per flight. Underestimates delay baggage and hurt customer satisfaction. Overestimates create excess labor costs.
+
+**Solution**
+
+A neural network that forecasts checked-bag volume per flight from flight and schedule attributes to support staffing decisions.
+
+**My Contributions**
+
+Feed-forward architecture with categorical embeddings, 288-configuration hyperparameter search, and evaluation on 24,711 held-out flights.
 
 `PyTorch` `pandas` `Parquet` `SQL`
 

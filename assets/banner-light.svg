@@ -38,8 +38,6 @@
     <circle cx="930.0" cy="172.0" r="15" fill="#F5F7F9" stroke="#D2553B" stroke-width="1.4"/>
     <circle cx="930.0" cy="172.0" r="5.5" fill="#D2553B"/>
   </g>
-  <rect x="954.0" y="159.0" width="156" height="22" rx="2" fill="#F5F7F9"/>
-  <text x="960.0" y="175.0" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="500" fill="#1C3B5A" letter-spacing="1.5">33.749 N  84.388 W</text>
   <text x="72" y="150" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="66" font-weight="700" fill="#0F1B29" letter-spacing="-2">Grace Petrov</text>
   <text x="75" y="197" font-family="'Source Serif 4', Georgia, serif" font-size="26" font-style="italic" fill="#1C3B5A">From unstructured data to decisive action</text>
   <text x="75" y="262" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="500" fill="#56677A" letter-spacing="2.2">STRATEGY  |  ANALYTICS  |  APPLIED AI</text>
