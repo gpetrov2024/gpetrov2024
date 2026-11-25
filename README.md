@@ -39,6 +39,13 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
 ### Grant Copilot
 *Emory University Capstone, 2026. Top contributor. Private repository, demo available upon request.*
 
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/plate-grant-copilot-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/plate-grant-copilot-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/plate-grant-copilot-dark.svg" />
+  <img width="100%" src="assets/plate-grant-copilot-light.svg" alt="A magnifying lens travels a route across Atlanta terrain from a grant question, past the American Community Survey and table B17001, and locks onto one census tract: a cited figure, ready for the funder." />
+</picture>
+
 **Business Problem**
 
 Small nonprofits need quantitative evidence of community need to win grants, but U.S. Census data spans thousands of variables and releases, and few nonprofits have analysts to navigate it.
@@ -55,6 +62,13 @@ Peer-matching logic across Census releases, multi-year queries, session-aware fo
 
 ### AI-Powered SAS to Python Migration
 *In partnership with Abt Global, Fall 2026.* [View the Star Ratings Studio application](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app)
+
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/plate-sas-migration-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/plate-sas-migration-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/plate-sas-migration-dark.svg" />
+  <img width="100%" src="assets/plate-sas-migration-light.svg" alt="Two routes, SAS and Python, climb Atlanta terrain to the same summit while a rangefinder focus ring turns to ten to the minus twelve. Same summit, in focus." />
+</picture>
 
 **Business Problem**
 
@@ -95,6 +109,13 @@ Star Ratings Studio gives analysts full access to the migrated pipeline through 
 ### Baggage Volume Forecasting for American Airlines
 [View the repository](https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations)
 
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/plate-baggage-forecasting-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/plate-baggage-forecasting-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/plate-baggage-forecasting-dark.svg" />
+  <img width="100%" src="assets/plate-baggage-forecasting-light.svg" alt="A plane flies from DFW across a forecast map of bags per flight into a radar scope centered on Atlanta, where other arrivals light up with forecast bag counts. Illustrative." />
+</picture>
+
 **Business Problem**
 
 Ground-crew staffing depends on expected bags per flight. Underestimates delay baggage and hurt customer satisfaction. Overestimates create excess labor costs.
@@ -111,10 +132,9 @@ Feed-forward architecture with categorical embeddings, 288-configuration hyperpa
 
 ## Technical Skills
 
-<table>
-  <tr><td><b>Languages and Data</b></td><td>Python, SQL, TypeScript, pandas, NumPy, DuckDB, SQLite, Parquet</td></tr>
-  <tr><td><b>Machine Learning and NLP</b></td><td>PyTorch, scikit-learn, spaCy, NLTK</td></tr>
-  <tr><td><b>Generative AI and Retrieval</b></td><td>OpenAI and Gemini APIs, RAG, embeddings, FAISS</td></tr>
-  <tr><td><b>Applications and Cloud</b></td><td>FastAPI, React, Google Cloud, Vertex AI, Docker, GitHub Actions, REST APIs</td></tr>
-  <tr><td><b>Analytics and Business</b></td><td>Tableau, Plotly, Matplotlib, Excel financial modeling, market research</td></tr>
-</table>
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/plate-skills-mobile-dark.svg" />
+  <source media="(max-width: 600px)" srcset="assets/plate-skills-mobile-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/plate-skills-dark.svg" />
+  <img width="100%" src="assets/plate-skills-light.svg" alt="Technical skills legend. Languages and Data: Python, SQL, TypeScript, pandas, NumPy, DuckDB, SQLite, Parquet. Machine Learning and NLP: PyTorch, scikit-learn, spaCy, NLTK. Generative AI and Retrieval: OpenAI and Gemini APIs, RAG, embeddings, FAISS. Applications and Cloud: FastAPI, React, Google Cloud, Vertex AI, Docker, GitHub Actions, REST APIs. Analytics and Business: Tableau, Plotly, Matplotlib, Excel financial modeling, market research." />
+</picture>
