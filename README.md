@@ -1,4 +1,7 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0A2540,100:0A66C2&height=150&section=header&text=Grace%20Petrov&fontColor=ffffff&fontSize=44&fontAlignY=42&desc=From%20unstructured%20data%20to%20decisive%20action&descAlignY=68&descSize=16" alt="Grace Petrov. From unstructured data to decisive action." />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg" />
+  <img width="100%" src="assets/banner-light.svg" alt="Grace Petrov. From unstructured data to decisive action." />
+</picture>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/gracepetrov/">LinkedIn</a> &nbsp;&nbsp;|&nbsp;&nbsp;
@@ -7,6 +10,21 @@
 </p>
 
 I build 0-to-1 data products and full-stack decision models that convert entrenched business problems into measured strategy and impact. I am a BBA candidate at Emory University's Goizueta Business School and an AI Research Fellow at Emory's Center for AI Learning, with client-facing experience across nonprofit and Fortune 500 engagements.
+
+## Selected Work
+
+<a href="#grant-copilot"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/row-grant-copilot-dark.svg" />
+  <img width="100%" src="assets/row-grant-copilot-light.svg" alt="Grant Copilot. Gives nonprofit grant writers cited U.S. Census evidence for every claim they make to a funder." />
+</picture></a>
+<a href="https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/row-sas-migration-dark.svg" />
+  <img width="100%" src="assets/row-sas-migration-light.svg" alt="SAS to Python Migration. Moves the CMS hospital star-rating pipeline off SAS, validated cell by cell for 4,566 hospitals." />
+</picture></a>
+<a href="https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/row-baggage-forecasting-dark.svg" />
+  <img width="100%" src="assets/row-baggage-forecasting-light.svg" alt="Baggage Forecasting. Predicts checked bags per flight so ground crews can be staffed to real demand." />
+</picture></a>
 
 ## Case Studies
 
