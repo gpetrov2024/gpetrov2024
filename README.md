@@ -1,9 +1,5 @@
 <h1 align="center">Grace Petrov</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3500&pause=1200&color=0A66C2&center=true&vCenter=true&width=720&lines=From+unstructured+data+to+decisive+action;Building+0-to-1+data+products+and+decision+models;Business+Analytics+%7C+Applied+AI+%7C+Technology+Strategy" alt="From unstructured data to decisive action. Building 0-to-1 data products and decision models. Business Analytics, Applied AI, Technology Strategy." />
-</p>
-
+<p align="center"><b>Business Analytics &nbsp;|&nbsp; Applied AI &nbsp;|&nbsp; Technology Strategy</b></p>
 <p align="center">
   <a href="https://www.linkedin.com/in/gracepetrov/"><img src="https://img.shields.io/badge/LinkedIn-gracepetrov-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:gpetrov2024@gmail.com"><img src="https://img.shields.io/badge/Email-gpetrov2024@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
@@ -12,16 +8,87 @@
 
 ---
 
-I build 0-to-1 data products and full-stack decision models that convert entrenched business problems into measured strategy and impact. I work across business functions to align technical solution architecture with strategic priorities and execution.
+<table>
+<tr>
+<td width="62%" valign="top">
 
-I am a BBA candidate at Emory University's Goizueta Business School, concentrating in Information Systems and Artificial Intelligence, and an AI Research Fellow at Emory's Center for AI Learning. My background includes client-facing engagements under compressed timelines with nonprofit and Fortune 500 organizations, where I have applied data analysis, machine learning, market research, and financial modeling to strategy, operations, customer insights, and technology implementation. More recently, I have expanded from analysis into building software and data products that make complex information accessible and actionable.
+### About
+
+**From unstructured data to decisive action.** I build 0-to-1 data products and full-stack decision models that convert entrenched business problems into measured strategy and impact.
+
+My background includes client-facing engagements under compressed timelines with nonprofit and Fortune 500 organizations, applying data analysis, machine learning, market research, and financial modeling to strategy, operations, and technology implementation. More recently, I have expanded from analysis into building software and data products that make complex information accessible and actionable.
+
+</td>
+<td width="38%" valign="top">
+
+### Currently
+
+**BBA Candidate**
+Emory University, Goizueta Business School
+Information Systems and AI
+
+**AI Research Fellow**
+Emory Center for AI Learning
+
+</td>
+</tr>
+</table>
 
 ## Selected Work
 
-Select any project to expand the full business case, solution, and contributions.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-<details open>
-<summary><b>Grant Copilot</b> &nbsp;|&nbsp; AI writing assistant that grounds nonprofit grant applications in verified Census data</summary>
+#### Grant Copilot
+*Emory Capstone, 2026*
+
+AI writing assistant that grounds nonprofit grant applications in verified U.S. Census data, with every figure traceable to its source.
+
+**Role:** Top contributor. Peer matching, session-aware follow-ups, export integrity.
+
+`Python` `Gemini` `FAISS` `Docker`
+
+<sub>Private repository. Demo upon request.</sub>
+
+</td>
+<td width="33%" valign="top">
+
+#### SAS to Python Migration
+*With Abt Global, Fall 2026*
+
+LLM-assisted modernization of the CMS Hospital Star Ratings pipeline, validated cell by cell against SAS for 4,566 hospitals.
+
+**Role:** Program 1 translation and validation, pipeline runner, Star Ratings Studio web application.
+
+`Python` `FastAPI` `React` `Docker`
+
+<sub>[View the application](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app)</sub>
+
+</td>
+<td width="33%" valign="top">
+
+#### Baggage Volume Forecasting
+*American Airlines*
+
+Neural network that forecasts checked bags per flight so operations teams can staff ground crews accurately.
+
+**Role:** Model architecture with categorical embeddings, 288-configuration tuning, evaluation on 24,711 flights.
+
+`PyTorch` `pandas` `SQL`
+
+<sub>[View the repository](https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations)</sub>
+
+</td>
+</tr>
+</table>
+
+### Case Studies
+
+Expand any project for the full business case.
+
+<details>
+<summary><b>Grant Copilot</b> &nbsp;|&nbsp; Business problem, solution, and key contributions</summary>
 
 <br>
 
@@ -55,7 +122,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>AI-Powered SAS to Python Migration</b> &nbsp;|&nbsp; LLM-assisted modernization of the CMS hospital star-rating pipeline, with Abt Global</summary>
+<summary><b>SAS to Python Migration</b> &nbsp;|&nbsp; Business problem, solution, and key contributions</summary>
 
 <br>
 
@@ -92,7 +159,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>Baggage Volume Prediction for American Airlines</b> &nbsp;|&nbsp; Neural network that forecasts checked bags per flight to inform ground-crew staffing</summary>
+<summary><b>Baggage Volume Forecasting</b> &nbsp;|&nbsp; Business problem, solution, and key contributions</summary>
 
 <br>
 
