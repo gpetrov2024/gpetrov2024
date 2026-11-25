@@ -39,9 +39,11 @@ Select any project to expand the full business case, solution, and contributions
 *Emory University Capstone, 2026. Top contributor.*
 
 **Business Problem**
+
 Competitive grant applications depend on quantitative evidence of community need. The most comprehensive source of that evidence, U.S. Census data, spans thousands of variables, geographies, and annual releases. Most small nonprofits do not have dedicated analysts, so their applications often omit supporting data or cite figures that cannot be traced to a source. Both outcomes reduce an application's credibility with funders.
 
 **Solution**
+
 Grant Copilot allows a grant writer to ask a question in plain English, such as *"I am writing a food pantry grant for Southwest Atlanta,"* and receive a cited narrative of relevant statistics, trends, and peer comparisons. Each figure is traceable to a specific Census variable, year, and geography, which allows the writer to substantiate every claim.
 
 ```mermaid
@@ -58,6 +60,7 @@ flowchart LR
 - Strengthened the evidence and export pipeline to keep every exported figure consistent with its original source
 
 `Python` `Gemini / Vertex AI` `FAISS` `SpatiaLite` `Census ACS` `Docker`
+
 *Private repository. Demo available upon request.*
 
 </details>
@@ -70,9 +73,11 @@ flowchart LR
 *In partnership with Abt Global, Fall 2026.* &nbsp; [View the Star Ratings Studio application](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app)
 
 **Business Problem**
+
 Public agencies such as the Centers for Medicare & Medicaid Services continue to run critical analytics on SAS, a platform with high licensing costs and a shrinking talent pool. Manual migration to Python is slow and error-prone. Each program must be translated, tested, and documented, and institutional knowledge embedded in legacy code is frequently lost in the process.
 
 **Solution**
+
 An LLM-assisted workflow that translates SAS programs into Python, verifies that outputs match, flags discrepancies, and documents the underlying business logic. The system is evaluated against the production pipeline behind the CMS Overall Hospital Quality Star Ratings, a public rating that patients use to compare hospitals.
 
 ```mermaid
@@ -105,9 +110,11 @@ flowchart LR
 [View the repository](https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations)
 
 **Business Problem**
+
 Airlines plan ground crew and baggage-handling staffing around the expected number of checked bags per flight. Underestimates lead to delayed or mishandled baggage, which affects on-time performance and customer satisfaction. Overestimates result in excess labor costs.
 
 **Solution**
+
 A neural network that forecasts checked-bag volume for each flight using flight and schedule attributes, giving operations teams a more accurate basis for staffing decisions.
 
 **Key Contributions**
