@@ -14,7 +14,7 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
 ## Selected Work
 
 <div>
-<a href="#grant-copilot"><picture>
+<a href="#case-studies"><picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/row-grant-copilot-mobile-dark.svg" />
   <source media="(max-width: 600px)" srcset="assets/row-grant-copilot-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/row-grant-copilot-dark.svg" />
@@ -36,7 +36,6 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
 
 ## Case Studies
 
-<a name="grant-copilot"></a>
 <div>
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/sheet-grant-mobile-dark.svg" />
@@ -46,7 +45,6 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
 </picture>
 </div>
 
-<a name="ai-powered-sas-to-python-migration"></a>
 <div>
 <a href="https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app"><picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/sheet-sas-mobile-dark.svg" />
@@ -80,7 +78,6 @@ Star Ratings Studio gives analysts full access to the migrated pipeline through 
 
 </details>
 
-<a name="baggage-volume-forecasting"></a>
 <div>
 <a href="https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations"><picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/sheet-baggage-mobile-dark.svg" />
