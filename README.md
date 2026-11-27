@@ -9,24 +9,26 @@
   <a href="https://www.linkedin.com/in/gracepetrov/">LinkedIn</a>&emsp;&emsp;<a href="mailto:gpetrov2024@gmail.com">gpetrov2024@gmail.com</a>&emsp;&emsp;Atlanta,&nbsp;GA
 </p>
 
-I build 0-to-1 data products and full-stack decision models that convert entrenched business problems into measured strategy and impact. I am a BBA candidate at Emory University's Goizueta Business School and an AI Research Fellow at Emory's Center for AI Learning, with client-facing experience across nonprofit and Fortune 500 engagements.
+I build 0-to-1 data products and full-stack decision models that convert entrenched business problems into measured strategy and impact.
+
+I am a BBA candidate at Emory University's Goizueta Business School and an AI Research Fellow at Emory's Center for AI Learning, with client-facing experience across nonprofit and Fortune 500 engagements.
 
 ## Selected Work
 
 <div>
-<a href="#case-studies"><picture>
+<a href="#grant-copilot"><picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/row-grant-copilot-mobile-dark.svg" />
   <source media="(max-width: 600px)" srcset="assets/row-grant-copilot-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/row-grant-copilot-dark.svg" />
   <img width="100%" src="assets/row-grant-copilot-light.svg" alt="Grant Copilot. Gives nonprofit grant writers cited U.S. Census evidence for every claim they make to a funder." />
 </picture></a>
-<a href="https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app"><picture>
+<a href="#sas-migration"><picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/row-sas-migration-mobile-dark.svg" />
   <source media="(max-width: 600px)" srcset="assets/row-sas-migration-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/row-sas-migration-dark.svg" />
   <img width="100%" src="assets/row-sas-migration-light.svg" alt="SAS to Python Migration. Moves the CMS hospital star-rating pipeline off SAS, validated cell by cell for 4,566 hospitals." />
 </picture></a>
-<a href="https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations"><picture>
+<a href="#baggage-forecasting"><picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/row-baggage-forecasting-mobile-dark.svg" />
   <source media="(max-width: 600px)" srcset="assets/row-baggage-forecasting-mobile-light.svg" />
   <source media="(prefers-color-scheme: dark)" srcset="assets/row-baggage-forecasting-dark.svg" />
@@ -36,6 +38,7 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
 
 ## Case Studies
 
+<a name="grant-copilot"></a>
 <div>
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/sheet-grant-mobile-dark.svg" />
@@ -45,6 +48,7 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
 </picture>
 </div>
 
+<a name="sas-migration"></a>
 <div>
 <a href="https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app"><picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/sheet-sas-mobile-dark.svg" />
@@ -53,8 +57,6 @@ I build 0-to-1 data products and full-stack decision models that convert entrenc
   <img width="100%" src="assets/sheet-sas-light.svg" alt="AI-Powered SAS to Python Migration. Matched SAS output for 4,566 hospitals within 1 x 10 to the minus 12. Abt Global, fall 2026, client partnership. Star Ratings Studio on GitHub. Business problem: Agencies such as CMS run critical analytics on SAS, which carries high licensing costs and a shrinking talent pool. Manual migration is slow, error-prone, and risks losing institutional knowledge. Solution: An LLM-assisted workflow that translates SAS to Python, verifies output parity, and documents the business logic, evaluated on the CMS Hospital Star Ratings pipeline. My contributions: Translated and validated Program 1 across 4,566 hospitals within 1 x 10 to the minus 12 of SAS, built the end-to-end pipeline runner, and designed and developed the Star Ratings Studio web application. Built with Python, pandas, FastAPI, React, TypeScript, pytest, Docker, GitHub Actions." />
 </picture></a>
 </div>
-
-[View the Star Ratings Studio application](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app)
 
 <picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/flow-sas-mobile-dark.svg" />
@@ -78,6 +80,9 @@ Star Ratings Studio gives analysts full access to the migrated pipeline through 
 
 </details>
 
+[View the Star Ratings Studio application](https://github.com/gpetrov2024/Abt-Global-1B-ai-powered-sas-migration/tree/star-ratings-ui/app)
+
+<a name="baggage-forecasting"></a>
 <div>
 <a href="https://github.com/gpetrov2024/AmericanAirlines_BaggageOperations"><picture>
   <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/sheet-baggage-mobile-dark.svg" />
@@ -97,3 +102,7 @@ Star Ratings Studio gives analysts full access to the migrated pipeline through 
   <source media="(prefers-color-scheme: dark)" srcset="assets/plate-skills-dark.svg" />
   <img width="100%" src="assets/plate-skills-light.svg" alt="Technical skills legend. Languages and Data: Python, SQL, TypeScript, pandas, NumPy, DuckDB, SQLite, Parquet. Machine Learning and NLP: PyTorch, scikit-learn, spaCy, NLTK. Generative AI and Retrieval: OpenAI and Gemini APIs, RAG, embeddings, FAISS. Applications and Cloud: FastAPI, React, Google Cloud, Vertex AI, Docker, GitHub Actions, REST APIs. Analytics and Business: Tableau, Plotly, Matplotlib, Excel financial modeling, market research." />
 </picture>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/gracepetrov/">LinkedIn</a>&emsp;&emsp;<a href="mailto:gpetrov2024@gmail.com">gpetrov2024@gmail.com</a>
+</p>
