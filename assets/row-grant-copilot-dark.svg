@@ -4,7 +4,7 @@
   <circle cx="14" cy="62" r="11" fill="none" stroke="#F07A5E" stroke-width="1.2"/>
   <circle cx="14" cy="62" r="4.5" fill="#F07A5E"/>
   <text x="44" y="73" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="700" fill="#EDF2F7" letter-spacing="-0.8">Grant Copilot</text>
-  <text x="45" y="104" font-family="'Source Serif 4', Georgia, serif" font-size="18" font-style="italic" fill="#A9C4E0">Emory capstone, 2026</text>
+  <text x="45" y="104" font-family="'Source Serif 4', Georgia, serif" font-size="18" font-style="italic" fill="#A9C4E0">Emory University, 2026</text>
   <text x="500" y="58" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" fill="#8C9DB0">Gives nonprofit grant writers cited U.S. Census</text><text x="500" y="89" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="23" fill="#8C9DB0">evidence for every claim they make to a funder.</text>
   <text x="500" y="124" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="500" fill="#8FB2D6" letter-spacing="2">PYTHON  |  GEMINI  |  FAISS</text>
   <line x1="0" y1="149.5" x2="1200" y2="149.5" stroke="#22313F"/>

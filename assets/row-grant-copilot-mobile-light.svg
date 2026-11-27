@@ -4,7 +4,7 @@
   <circle cx="18" cy="62" r="14" fill="none" stroke="#D2553B" stroke-width="1.6"/>
   <circle cx="18" cy="62" r="5.5" fill="#D2553B"/>
   <text x="48" y="76" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="44" font-weight="700" fill="#0F1B29" letter-spacing="-1">Grant Copilot</text>
-  <text x="49" y="118" font-family="'Source Serif 4', Georgia, serif" font-size="27" font-style="italic" fill="#1C3B5A">Emory capstone, 2026</text>
+  <text x="49" y="118" font-family="'Source Serif 4', Georgia, serif" font-size="27" font-style="italic" fill="#1C3B5A">Emory University, 2026</text>
   <text x="40" y="170" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" fill="#56677A">Gives nonprofit grant writers cited</text><text x="40" y="210" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" fill="#56677A">U.S. Census evidence for every claim</text><text x="40" y="250" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="29" fill="#56677A">they make to a funder.</text>
   <text x="40" y="306" font-family="'Schibsted Grotesk', -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#1C3B5A" letter-spacing="3">PYTHON  |  GEMINI  |  FAISS</text>
   <line x1="0" y1="339" x2="720" y2="339" stroke="#D3DAE2" stroke-width="2"/>
